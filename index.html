@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Roasted Ground </title>
+    <link rel="stylesheet" href="static/css/stylesheet.css">
+    <link rel="favicon" type="image/x-icon" href="static/images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div include-html="static/html/header.html"></div>
+    <div id="routerTag"></div>
+</body>
+<script src="static/js/importHtml.js"></script>
+<script src="static/js/router.js"></script>
+<script src="static/js/initScript.js"></script>
+<script type="text/javascript">
+  var locationArr= ["Location-1","Location-2","Location-3","Location-4"]
+   var loactionOption = document.getElementById('locationOption');
+  for (i = 0; i < locationArr.length; i++) {
+    var optionValue = options[i];
+    var element = document.createElement("option");
+    element.textContent = optionValue;
+    element.value = optionValue;
+    loactionOption.appendChild(element);
+  }
+</script>
+</html>
