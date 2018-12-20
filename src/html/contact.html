@@ -1,33 +1,31 @@
+<!--
+ Author: Deepika Chandra Sekar
+ Description: HTML view for the contact page
+-->
+
+
+
+
 <div class="contact">
-<h2> CONTACT US </h2>
+   <h2> CONTACT US </h2>
 </div>
 <div class="contact-mail" id="mail">
-  <p> We are open from 9 am to 6 pm</p>
-<a class="mail icon" title="Mail" > </a>
- <p> customer@roastedground.com </p>
+   <p> We are open from 9 am to 6 pm</p>
+   <a class="mail icon" title="Mail" > </a>
+   <p> customer@roastedground.com </p>
 </div>
-<div  class="send-free-coffee-form">
-<form >
-  <h3 class="send-coffee"> Send someone a coffee for free* </h3>
-  <input type="text" name="enter your name" placeholder="Enter your name"  class="name-box"/>
-  <select class="select-name-box">
-        <option value="location-1">location-1</option>
-        <option value="location-2">location-2</option>
-        <option value="location-3">location-3</option>
-  </select>
-  <p >Choose Your coffee:</p>
-           <div name="paymentContainer" class="paymentOptions">
-               <div  class="floatBlock"><input  class="coffee-select"  type="radio" value="latte" />Latte</div>
-               <div  class="floatBlock"><input  type="radio" class="coffee-select" value="cappuccino" />Cappuccino</div>
-               <div  class="floatBlock"><input   type="radio" class="coffee-select" type="americano" />Americano</div>
-           </div>
-             <p >Write a note:</p>
-           <textarea class="text-name-box"  rows="4" cols="50" >
-           </textarea>
-
-           <input type="submit" name="Send" class="send"/>
-</div
-
-
-
-</form>
+<div  class="send-free-coffee-form form-signup" id="contactFormValidator">
+<form name="form" onsubmit="return contactFormValidator();">
+   <h3 class="send-coffee"  > Send someone a coffee for free <span onmouseover="terms()" class="error_msg">*</span> </h3>
+   <input type="text" name="Enter your name" placeholder="Enter your name"  class="name name-box"/>
+   <select class="select-name-box">
+      <option value="location-1">location-1</option>
+      <option value="location-2">location-2</option>
+      <option value="location-3">location-3</option>
+   </select>
+   <p >Write a note:</p>
+   <textarea class="text-name-box"  rows="4" cols="50" ></textarea>
+   <p class="error_message"></p>
+   <input type="submit" name="home-submit"  class="home-submit" value="Submit">
+   </form>
+  </div>

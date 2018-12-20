@@ -1,0 +1,30 @@
+/* 
+Author: Deepika Chandra Sekar
+Description: CSS for responsive for device width 1000px
+*/
+@media only screen and (max-width:1000px){
+    .coffee-select{
+        margin-left: 0px;
+   }
+    .send-free-coffee-form {
+        width: 330px;
+        height: 480px;
+        background-color: #D4AA88;
+        background-blend-mode: lighten;
+        border-radius: 10px;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+   }
+    .select-name-box{
+        width: 80%;
+        padding: 20px 0 20px 0;
+        margin: 15px 0;
+        background-color: #E9D4C3;
+        display: inline-block;
+        border: 1px solid #E9D4C3;
+        border-radius: 20px;
+        text-align-last: center;
+   }
+}

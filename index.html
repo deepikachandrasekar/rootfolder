@@ -1,21 +1,37 @@
+<!--
+ Author: Deepika Chandra Sekar
+ Description: index.html page
+-->
+
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
+      <!-- Webpage title-->
     <title>Roasted Ground </title>
-    <link rel="stylesheet" href="static/css/stylesheet.css">
+      <!--  Start of CSS file dependency-->
+    <link rel="stylesheet" href="static/css/web.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+    <link rel="stylesheet" href="static/css/mobile.css">
+      <!--  End of CSS file dependency-->
+      <!--  Favicon-->
     <link rel="favicon" type="image/x-icon" href="static/images/favicon.ico" />
+      <!--  View port for responsiveness-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Start of JS file dependency-->
     <script src="static/js/importHtml.js"></script>
     <script src="static/js/router.js"></script>
     <script src="static/js/contact.js"></script>
+    <script src="static/js/home.js"></script>
     <script src="static/js/initScript.js"></script>
-
+    <!-- End of JS file dependency -->
 </head>
-
+<!--  Initializing the webpage during the start-->
 <body onload="initFn();">
+  <!--  Including the header file-->
     <div  include-html="static/html/header.html"></div>
+    <!--  Router Div tag-->
     <div id="routerTag"></div>
 </body>
 

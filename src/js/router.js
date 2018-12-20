@@ -18,7 +18,4 @@ function changeRoute(path) {
   //Calling this function to load the htmldata
 
   loadHTML();
-  if (path == '/contact') {
-    loadOption()
-  }
 }
