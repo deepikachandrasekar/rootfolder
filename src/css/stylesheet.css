@@ -164,6 +164,13 @@ a:hover
     padding: 20px;
 }
 
+#mail{
+  padding:50px;
+}
+
+#send-form{
+  width:500px;
+}
 #product-name{
   width:210px;
   height: 250px;
@@ -182,6 +189,10 @@ input[type=email],input[type=password] , input[type=text] , select {
 .radio-button{
   flex-direction: row;
 }
+.location-box , #name-box {
+  padding: 10px 0 10px 0;
+  width: 60%;
+}
 
 input[type=submit] {
     width: 50%;
@@ -196,6 +207,10 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #C4844F;
+}
+
+#send{
+  width:25%;
 }
 .about-us , .products , .contact{
   text-align: center;
