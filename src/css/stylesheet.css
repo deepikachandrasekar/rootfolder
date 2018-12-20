@@ -152,7 +152,7 @@ a:hover
   padding: 0px;
   margin-top: 90px;
 }
-.newsletter , .product-collection , .send-free-coffee-form{
+.newsletter , .product-collection {
     width: 650px;
     height: 300px;
     background-color: #D4AA88;
@@ -163,11 +163,31 @@ a:hover
     margin: 0 auto;
     padding: 20px;
 }
-
+.send-free-coffee-form{
+    width: 650px;
+    height: 550px;
+    background-color: #D4AA88;
+    background-blend-mode: lighten;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
 #product-name{
   width:210px;
   height: 250px;
   flex-direction: row;
+}
+.select-name-box{
+width: 80%;
+padding: 20px 0 20px 0;
+margin: 15px 0;
+background-color: #E9D4C3;
+display: inline-block;
+border: 1px solid #E9D4C3;
+border-radius: 20px;
+text-align-last: center;
 }
 input[type=email],input[type=password] , input[type=text] , select {
      width: 80%;
@@ -220,7 +240,19 @@ input[type=submit]:hover {
   flex-direction: row;
   object-fit: cover;
 }
+.text-name-box{
+      width: 80%;
+      padding: 20px 0 20px 0;
+      margin: 15px 0;
+      background-color: #E9D4C3;
+      display: inline-block;
+      border: 1px solid #E9D4C3;
+      border-radius: 20px;
+}
 
+.coffee-tag{
+  padding: 10px;
+}
 #prod{
   height:200px;
 }
@@ -327,6 +359,27 @@ a.mail:before {
             transform: rotate(-25deg);
 }
 
+
+.floatBlock {
+  margin: 0 1.81em 0 0;
+}
+
+.paymentOptions {
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	break-before: always;
+	margin: 0 0 3em 0;
+}
+
+#purchaseOrder {
+	margin: 0 0 2em 0;
+}
+
+
+
+
 @media only screen and (max-width:500px){
 .coffee-pics {
     position: relative;
@@ -369,11 +422,21 @@ input[type=submit] {
     width: 50%;
     background-color: #E9D4C3;
     color: black;
-    padding: 1px 1px;
+    padding: 10px 10px;
     margin: 5px 0;
     border: none;
     border-radius: 20px;
     cursor: pointer;
+}
+.select-name-box{
+width: 80%;
+padding: 20px 0 20px 0;
+margin: 15px 0;
+background-color: #E9D4C3;
+display: inline-block;
+border: 1px solid #E9D4C3;
+border-radius: 20px;
+text-align-last: center;
 }
 .restaurant-pics {
     position: relative;
@@ -385,5 +448,16 @@ input[type=submit] {
     margin-top: 5%;
     flex-direction: row;
     object-fit: cover;
+}
+.send-free-coffee-form {
+    width: 330px;
+    height: 570px;
+    background-color: #D4AA88;
+    background-blend-mode: lighten;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
 }
 }
