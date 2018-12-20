@@ -188,16 +188,7 @@ a:hover
   height: 250px;
   flex-direction: row;
 }
-.select-name-box{
-width: 80%;
-padding: 20px 0 20px 0;
-margin: 15px 0;
-background-color: #E9D4C3;
-display: inline-block;
-border: 1px solid #E9D4C3;
-border-radius: 20px;
-text-align-last: center;
-}
+
 input[type=email],input[type=password] , input[type=text] , select {
      width: 80%;
       padding: 20px 0 20px 0;
@@ -395,6 +386,20 @@ a.mail:before {
 }
 
 
+.coffee-select{
+margin-left: 78px;
+}
+
+.select-name-box{
+width: 80%;
+padding: 20px 0 20px 0;
+margin: 15px 0;
+background-color: #E9D4C3;
+display: inline-block;
+border: 1px solid #E9D4C3;
+border-radius: 20px;
+text-align-last: center;
+}
 
 
 @media only screen and (max-width:500px){
@@ -445,16 +450,7 @@ input[type=submit] {
     border-radius: 20px;
     cursor: pointer;
 }
-.select-name-box{
-width: 80%;
-padding: 20px 0 20px 0;
-margin: 15px 0;
-background-color: #E9D4C3;
-display: inline-block;
-border: 1px solid #E9D4C3;
-border-radius: 20px;
-text-align-last: center;
-}
+
 .restaurant-pics {
     position: relative;
     padding: 2px;
@@ -476,5 +472,8 @@ text-align-last: center;
     text-align: center;
     margin: 0 auto;
     padding: 20px;
+}
+.coffee-select{
+margin-left: 0px;
 }
 }
