@@ -5,13 +5,13 @@ Description: CSS for web
 
 *{
   box-sizing: border-box;
-  width: 100%;
   margin: 0;
   font-family: "Iowan Old Style";
 }
 header{
   background-color: #D4AA88;
   opacity: 0.8;
+  height: 15px;
 }
 a
 {
@@ -19,7 +19,13 @@ a
   color: #232323;
   transition: color 0.3s ease;
 }
-
+.logo-img{
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 a:hover
 {
   color: tomato;
@@ -29,13 +35,24 @@ a:hover
 {
   display: block;
   position: relative;
-  height: 120px;
-  top: 50px;
+  height: 100px;
   padding-left: 30px;
+  padding-top: 30px;
   z-index: 1;
-  user-select: none;
 }
+.parallax {
+  /* The image used */
+  background-image: url("static/images/desktop/aboutus-pic1.jpg");
 
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #menuToggle input
 {
   display: block;
@@ -183,8 +200,9 @@ a:hover
     font-family: "Iowan Old Style";
 }
 .success_msg {
-  color: green;
-  font-size: 35px;
+  color: #7d7a76;
+  font-weight: bold;
+  font-size: 22px;
   font-family: "Iowan Old Style";
 }
 #mail{
@@ -390,7 +408,6 @@ a.mail:before {
 .coffee-select{
 margin-left: 78px;
 }
-
 
 .select-name-box {
     width: 80%;

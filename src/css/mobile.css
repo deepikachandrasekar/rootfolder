@@ -71,6 +71,12 @@ Description: CSS for responsive for device width 500px
          border-radius: 20px;
          text-align-last: center;
     }
+      .success_msg {
+        color: #7d7a76;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: "Iowan Old Style";
+        }
      .send-free-coffee-form {
          width: 330px;
          height: 450px;

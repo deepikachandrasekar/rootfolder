@@ -1,4 +1,4 @@
-/* 
+/*
 Author: Deepika Chandra Sekar
 Description: CSS for responsive for device width 1000px
 */
@@ -17,6 +17,12 @@ Description: CSS for responsive for device width 1000px
         margin: 0 auto;
         padding: 20px;
    }
+   .success_msg {
+    color: #7d7a76;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "Iowan Old Style";
+    }
     .select-name-box{
         width: 80%;
         padding: 20px 0 20px 0;
