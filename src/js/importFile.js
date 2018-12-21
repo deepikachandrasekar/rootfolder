@@ -39,16 +39,3 @@ function loadHTML() {
     }
   }
 };
-
-/*
-Function Description: This function is used to load the image based on screen size
-*/
-function loadImage(image) {
-  var width = window.innerWidth;
-  var height = window.innerHeight;
-  var device = "desktop";
-  if (width <= 568) {
-    device = "mobile";
-  }
-  return "static/" + device + "/images/" + image
-};
