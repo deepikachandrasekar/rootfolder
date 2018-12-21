@@ -40,14 +40,9 @@ a:hover
   padding-top: 30px;
   z-index: 1;
 }
-.parallax {
-  /* The image used */
-  background-image: url("static/images/desktop/aboutus-pic1.jpg");
-
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
+.about-us-img {
+  background-image: url("../../static/images/desktop/aboutus-pic1.jpg");
+  min-height: 250px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
